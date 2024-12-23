@@ -11,7 +11,7 @@ st.markdown("""
     and overrides its default styling */
     section[data-testid="stSidebar"] div:first-child {
         top: 0;
-        height: 5vh;
+        height: 0vh;
     }
 </style>
 """,unsafe_allow_html=True)
