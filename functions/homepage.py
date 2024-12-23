@@ -16,11 +16,13 @@ def  homepage_body():
         with st.container(border=True):
             st.write("Here goes an animated image displaying some chart")
     
-    with st.container(border=True):
+    with st.container(border=False):
         c1,c2,c3 = st.columns([0.45,0.1,0.45])
         with c2:
-            st.button(label='Go to Dashboard')
+            if st.button(label='Go to Dashboard',type="primary"):
+                return True
 
 def print_homepage():
     homepage_header()
-    homepage_body()
+    dashboard = homepage_body()
+    return dashboard
