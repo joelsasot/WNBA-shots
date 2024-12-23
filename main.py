@@ -4,7 +4,7 @@ st.set_page_config(layout='wide')
 st.write('''
          <style>
          div.block-container{padding-top:0.8rem;} 
-         header {  background-color: teal;
+         header{  background-color: teal;
                     color: white;}
          </style>''', unsafe_allow_html=True   )
 
