@@ -1,2 +1,3 @@
 import streamlit as st
-st.header("WNBA Shots")
+def print_header():
+    st.header("WNBA Shots")

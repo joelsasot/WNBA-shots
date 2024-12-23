@@ -1,6 +1,5 @@
 import streamlit as st
+from functions.header import print_header
 st.set_page_config(layout='wide')
-st.write("Hello!")
-st.write('patata')
-st.write("boniato")
 
+print_header()
